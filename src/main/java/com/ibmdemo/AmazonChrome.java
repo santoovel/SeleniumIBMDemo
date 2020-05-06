@@ -20,10 +20,8 @@ public class AmazonChrome {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		
 		String title = driver.getTitle();
-		System.out.println("Amazon Page title is =====>: " + title);
-
+		System.out.println("Amazon Page title is ======>>: " + title);
 		driver.quit();
 	}
 }

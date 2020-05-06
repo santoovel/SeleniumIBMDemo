@@ -19,8 +19,7 @@ public class FlipkartFirefox {
 		driver.get("https://www.flipkart.com/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		String title = driver.getTitle();
-		System.out.println("Flipkart Page title is ===>: " + title);
-
+		System.out.println("Flipkart Page title is =====>>: " + title);
 		driver.quit();
 	}
 }
