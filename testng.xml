@@ -5,6 +5,8 @@
     <classes>
       <class name="com.ibmdemo.AmazonChrome"/>
       <class name="com.ibmdemo.FlipkartFirefox"/>
+        <class name="com.ibmdemo.WorkPlaceXT"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
