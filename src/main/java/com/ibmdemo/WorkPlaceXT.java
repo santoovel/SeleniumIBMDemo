@@ -19,6 +19,9 @@ public class WorkPlaceXT {
 		driver.manage().window().maximize();
 		driver.get("http://146.89.106.93:8080/ecmms.html");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		String title = driver.getTitle();
+		System.out.println("WorkPlaceXT Page title is =====>>: " + title);
+		System.out.println("WorkPlaceXT URL  is =====>>: " + driver.getCurrentUrl());
 		
 		// click on SIT XT LINK
 		driver.findElement(By.xpath("//a[text()='Workplace XT']")).click();
